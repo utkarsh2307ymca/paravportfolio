@@ -54,11 +54,11 @@ theme.
 }
 
 .intro, .services-content-block, .works, .work-with-us, .footer {
-  z-index: 10;
+  z-index: 1000;
 }
 
 .navbar {
-  z-index: 16!important;
+  z-index: 10000!important;
 }
 
 body {
@@ -354,7 +354,7 @@ section {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 15;
+  z-index: 9999;
   visibility: hidden;
 }
 .navigation-menu .bg-layers {
