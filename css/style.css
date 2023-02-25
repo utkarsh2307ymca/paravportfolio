@@ -61,6 +61,21 @@ theme.
   z-index: 10000!important;
 }
 
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom: 30px;;
+	right: 0px;
+	background-color:#01f7b6;
+	color:#FFF;
+	/* border-radius:20px; */
+	text-align:center;
+  font-size:32px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
 body {
   margin: 0;
   padding: 0;
